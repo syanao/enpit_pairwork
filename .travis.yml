@@ -1,0 +1,14 @@
+language: ruby
+rvm:
+- 2.1.2
+- 2.0.0
+- 1.9.3
+- jruby-19mode
+- rbx-2
+deploy:
+  provider: heroku
+  api_key:
+    secure: i6MeKSNpk6jlkkaqVXSIC5bt/4Cj+goI10hdlpsbonbnW0mk/K0e3r6n4lJrTSH/GPLCNDLrXsq9UaowajOyVHTX07LjG3GN+gNOYZ+89YQ40+A4iW+2TSBGwt3l/cmxrOGGGxkBX069JETMKoFudq2ED7l6wNIdqAc91Q+JaX4=
+  app: floating-waters-8300
+  on:
+    repo: syanao/enpit_pairwork
