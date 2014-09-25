@@ -2,5 +2,9 @@
 require 'sinatra'
 
 get '/' do
-  "Hello World!"
+  erb :index
+end
+
+post '/' do
+  "Hello, " + params[:name]
 end
